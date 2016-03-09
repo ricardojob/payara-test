@@ -19,8 +19,6 @@ import org.junit.runner.RunWith;
 
 
 //@RunWith(Arquillian.class)
-//public class HelloWorldTest {//extends Arquillian {
-    
 public class HelloWorldTest extends Arquillian {
 
     @Inject
@@ -32,7 +30,6 @@ public class HelloWorldTest extends Arquillian {
                 .addClass(HelloWorld.class)
                 .addClass(Service.class);
                 //.addAsManifestResource(EmptyAsset.INSTANCE, ArchivePaths.create("beans.xml"));
-
     }
 
     @Test()
